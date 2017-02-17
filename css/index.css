@@ -148,7 +148,6 @@ img{
     border-bottom: 0.1rem solid #50cdab;
 }
 .back-top .back-pic{
-    width: 100%;
     display:inline-block;
     background: url(../img/back.png) no-repeat 5.45rem center;
     background-size: 1.45rem 1.45rem;
