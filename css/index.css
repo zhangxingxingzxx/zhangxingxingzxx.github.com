@@ -82,7 +82,8 @@ img{
     width: 14.05rem;
     padding-left: 0.35rem;
 }
-.artical .top-1{border-top: none;}
+.artical .top-1{ border-top: none;}
+.top-1 .top-p{ padding-left: 0.25rem;}
 .hot-q{
     height: 2rem;
     background: #fafafa;
@@ -119,6 +120,7 @@ img{
 }
 #box{
     display:flex;
+    padding-left: 0.25rem;
 }
 .pic{
     display:block;
@@ -128,18 +130,31 @@ img{
     background-size: 5.2rem 3.7rem;
 }
 #top-1 .text{
-    width: 9.05rem;
+    width: 8.4rem;
     font-size: 0.65rem;
     color: #989898;
     line-height: 1.25rem;
     padding-left: 0.5rem;
 }
-
-
-
-
-
-
+#pic{
+    background: url(../img/animal.png) no-repeat;
+    background-size: 5.2rem 3.7rem;
+}
+.back-top{
+    height: 3rem;
+    background: #fafafa;
+    border-top: 0.05rem solid #e4e4e4;
+    line-height: 3rem;
+    border-bottom: 0.1rem solid #50cdab;
+}
+.back-top .back-pic{
+    width: 100%;
+    display:inline-block;
+    background: url(../img/back.png) no-repeat 5.45rem center;
+    background-size: 1.45rem 1.45rem;
+    color: #6e7275;
+    padding-left: 7.4rem;
+}
 .foot{
     width: 16rem;
     height: 3.75rem;
@@ -156,17 +171,15 @@ img{
 .foot-pc{
     background: url(../img/p-bg.png) no-repeat 2.05rem center;
     background-size: 1.45rem 1.175rem;
+}
+.foot-pc .foot-p1{
     padding-left: 4.1rem;
 }
 .foot-app{
     background: url(../img/phone.png) no-repeat 1.8rem center;
     background-size: 0.65rem 1.15rem;
     border-left: 0.05rem solid #666;
+}
+.foot-app .foot-p2{
     padding-left: 3.05rem;
 }
-
-
-
-
-
-
